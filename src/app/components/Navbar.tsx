@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="flex items-center justify-between py-5 px-10 md:px-20 bg-white w-full mb-16">
-      <Image src={logo} alt="Logo" width={40} height={40} />
+      <Link href="/" className="cursor-pointer"><Image src={logo} alt="Logo" width={40} height={40} /></Link>
 
       <div className="hidden md:flex space-x-6">
         <Link
