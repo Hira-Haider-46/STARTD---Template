@@ -3,7 +3,8 @@ import testimonials from "./data.js";
 const Testimonials: React.FC = () => {
   return (
     <div className="py-8">
-      <div className="max-w-4xl mx-auto space-y-12">
+      <h1 className="text-gray-700 text-2xl font-bold text-center my-2">Testimonials</h1>
+      <div className="mx-auto space-y-12 md:py-4 w-4/5">
         {testimonials.map((testimonial, index) => (
           <div key={index}>
             <div className="text-gray-700 text-5xl">&ldquo;</div>

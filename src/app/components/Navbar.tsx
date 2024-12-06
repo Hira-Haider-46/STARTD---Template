@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
           Log in
         </Link>
         <Link
-          href="/get-started"
+          href="/login"
           className="font-semibold bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
         >
           Get started
