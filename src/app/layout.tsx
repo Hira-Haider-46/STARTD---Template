@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Navbar from "./components/Navbar"; 
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -25,10 +24,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        <div className="min-h-screen">
-          {children}
-        </div>
+        <div>{children}</div>
       </body>
     </html>
   );

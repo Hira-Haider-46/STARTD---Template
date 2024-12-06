@@ -9,31 +9,31 @@ const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between py-5 px-10 md:px-20 bg-white shadow-md fixed w-full z-10">
+    <nav className="flex items-center justify-between py-5 px-10 md:px-20 bg-white w-full mb-16">
       <Image src={logo} alt="Logo" width={40} height={40} />
 
       <div className="hidden md:flex space-x-6">
         <Link
           href="/features"
-          className="font-semibold text-gray-500 hover:text-blue-500"
+          className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
         >
           Features
         </Link>
         <Link
           href="/testimonials"
-          className="font-semibold text-gray-500 hover:text-blue-500"
+          className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
         >
           Testimonials
         </Link>
         <Link
           href="/pricing"
-          className="font-semibold text-gray-500 hover:text-blue-500"
+          className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
         >
           Pricing
         </Link>
         <Link
           href="/blog"
-          className="font-semibold text-gray-500 hover:text-blue-500"
+          className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
         >
           Blog
         </Link>
@@ -42,13 +42,13 @@ const Navbar: React.FC = () => {
       <div className="hidden md:flex space-x-4 items-center">
         <Link
           href="/login"
-          className="font-semibold text-gray-500 hover:text-blue-500"
+          className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
         >
           Log in
         </Link>
         <Link
           href="/get-started"
-          className="font-semibold bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+          className="font-semibold bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
         >
           Get started
         </Link>
@@ -82,32 +82,32 @@ const Navbar: React.FC = () => {
         <div className="flex flex-col items-center space-y-4 py-4 px-6">
           <Link
             href="/features"
-            className="font-semibold text-gray-500 hover:text-blue-500"
+            className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
           >
             Features
           </Link>
           <Link
             href="/testimonials"
-            className="font-semibold text-gray-500 hover:text-blue-500"
+            className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
           >
             Testimonials
           </Link>
           <Link
             href="/pricing"
-            className="font-semibold text-gray-500 hover:text-blue-500"
+            className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
           >
             Pricing
           </Link>
           <Link
             href="/blog"
-            className="font-semibold text-gray-500 hover:text-blue-500"
+            className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
           >
             Blog
           </Link>
           <div className="flex flex-col space-y-4 mt-6">
             <Link
               href="/login"
-              className="font-semibold text-gray-500 hover:text-blue-500"
+              className="font-semibold text-gray-500 hover:text-blue-500 text-lg"
             >
               Log in
             </Link>
